@@ -1,6 +1,7 @@
 //
 // Created by Fransiskus Agapa on 8/23/2022.
 //
+// Declaration Restaurant Class
 
 #ifndef BASICCLASS7_RESTAURANT_H
 #define BASICCLASS7_RESTAURANT_H
