@@ -30,7 +30,7 @@ string Capitalize(string& word)
         int stSpace;     // first space
         stSpace = word.find(' ');
 
-        // st char in st word
+        // 1st char in 1st word
         if(islower(word[0]))
         {
             word[0] = toupper(word[0]);
