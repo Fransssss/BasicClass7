@@ -1,6 +1,7 @@
 //
 // Created by Fransiskus Agapa on 8/23/2022.
 //
+// Definition  Restaurant Class
 
 #include "Restaurant.h"
 #include "sstream"
