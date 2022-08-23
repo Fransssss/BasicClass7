@@ -54,9 +54,9 @@ int main()
             cout << "Input rating 1 - 5: ";
             cin >> rating;
             validRating = ValidateRating(rating);
-            if(validRating and stoi(rating) >= 1 and stoi(rating) <= 5)
+            if(validRating and stoi(rating) >= 1 and stoi(rating) <= 5)   // rating should be equal to or less than 5
             {
-                restaurant.SetRating(stoi(rating));
+                restaurant.SetRating(stoi(rating));                       // send rating as int
             }
             else
             {
@@ -69,7 +69,7 @@ int main()
             cin >> comment;
             if(comment == "yes" or comment == "Yes" or comment == "YES")
             {
-                Capitalize(comment);
+                Capitalize(comment);                 
                 restaurant.SetComment(comment);
             }
             else if(comment == "NO" or comment == "No" or comment == "no")
