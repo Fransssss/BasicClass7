@@ -18,13 +18,13 @@ bool ValidateRating(string& rating)
 
     for(size_t i = 0; i < rating.size(); ++i)
     {
-        if(isdigit(rating[i]))
+        if(isdigit(rating[i]))                     // if there is digit
         {
             keepTrackValidDigit += 1;
         }
     }
 
-    if(keepTrackValidDigit != amountValidDigit)  // not all digit
+    if(keepTrackValidDigit != amountValidDigit)   // not all digit
     {
         return false;
     }
